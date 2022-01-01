@@ -1,6 +1,7 @@
 # Bulk Scan In with Rust
 Implement Alma scan in API with Rust
 
+<<<<<<< HEAD
 ## Program flags
 - k --apikey default_value = "NOSUCHKEY"
 > You must provide APIKEY for the program to run
@@ -28,3 +29,12 @@ Implement Alma scan in API with Rust
 ## Version
 * 0.1.0 first commit
 * 0.1.1 add flags
+=======
+## Test the program with `cargo run`:
+$ cargo run -- -k <YOURKEY> -f ./barcodes.txt
+## Execute the program in your shell (Windows):
+$ scanin.exe -k <YOURKEY> -f ./barcodes.txt
+
+* Put *barcode.txt* aside *scanin.exe* in one folder.
+* Put barcodes in *barcode.txt* one barcode per line.
+>>>>>>> 9371a4b87694695785430e71e111623a3c6578d6
